@@ -1,0 +1,10 @@
+# Arquivos de estado local do Terraform, que podem conter dados sensiveis.
+*.tfstate
+*.tfstate.backup
+
+# Cache de provedores e modulos baixados pelo Terraform.
+.terraform
+
+# Arquivos locais de variaveis e credenciais que nao devem ir para o repositorio.
+*.tfvars.local
+*.auto.tfvars
